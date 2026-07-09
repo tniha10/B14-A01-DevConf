@@ -9,12 +9,14 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 20px 60px;
+    background-color: #FFFFFF;
+
 }
 
 ul{
     list-style: none;
     display: flex;
-    gap: 24px;
+    gap: 32px;
     color: #575757;
 }
 
@@ -25,8 +27,10 @@ a{
 .btn{
     background: #1d4ed8;
     color: #FFFFFF;
-    padding: 12px;
-    border-radius: 9px;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
 }
 
 .btn:hover{
