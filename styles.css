@@ -230,7 +230,52 @@ a{
     color: #FFFFFF;
 }
 
+.footer{
+  background-color: #001931;      
+  color: #ffffff;
+  padding: 30px 80px 20px;
+}
 
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.footer-logo img{
+  width: 100px;
+  height: auto;
+  text-align: left;
+}
+
+.footer-social-links{
+  text-align: right;
+}
+
+.footer-social-title{
+    font-size: 12px;
+    margin: 10px;
+}
+
+.footer-icons img {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+}
+
+.footer-line{
+  border: none;
+  border-top: 1px solid #16324a; 
+  margin: 12px 0 10px;
+}
+
+.footer-copyright{
+  font-size: 1.15rem;
+  font-weight: 300;
+  color: #9ca3af;
+  text-align: center;
+}
 
 
 
