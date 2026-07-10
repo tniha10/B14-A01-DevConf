@@ -1,0 +1,1 @@
+I'm trying to build a conference landing page called DevConf2026 (using basic HTML/CSS only). Help me design 'The Stats' section that shows impressive stats from last year's conference (attendees, satisfaction rating) in a 2-column stat grid. It should visually match my existing pricing cards and use the same blue accent color for the big numbers. 

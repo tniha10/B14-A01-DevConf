@@ -230,6 +230,55 @@ a{
     color: #FFFFFF;
 }
 
+.stats{
+    padding: 100px 60px;
+    text-align: center;
+    background: #d1d6da;
+}
+
+.stats-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 22px;
+    color: #0f172a;
+}
+
+.stats-subtitle{
+    font-size: 1.3rem;
+    color: #294b7b;
+    margin-bottom:45px ;
+}
+
+.stats-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
+    max-width: 720px; /*small cards*/
+    margin: 0 auto;  /* makes it center*/
+ }   
+
+.stats-card{
+    background-color: #061d35;
+    border: 1px solid #010e1ec3;
+    border-radius: 16px;
+    padding:50px 30px;
+}
+
+.stats-number{
+    font-size: 2.7rem;
+    font-weight: 700;
+    color: #052f89;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.stats-desc{
+    color: #6787b5;
+    font-size: 1.2rem;
+    text-align: center;
+    align-items: center;
+}
+
 .footer{
   background-color: #001931;      
   color: #ffffff;
