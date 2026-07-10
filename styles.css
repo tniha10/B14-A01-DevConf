@@ -30,7 +30,8 @@ a{
     padding: 12px 28px;
     border: none;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 .btn:hover{
@@ -56,29 +57,26 @@ a{
     display: grid;
     gap: 20px;
     padding: 0 20px;
+    margin-top: -20px;
 }
 
 .heading-1{
     font-size: 4.8rem;
     font-weight: 800;
-    line-height: 1.05;margin-bottom: 27px;
+    line-height: 1.05;
+    margin-bottom: 20px;
     letter-spacing: -2px;
 }
 
 .paragraph{
-    font-family: Inter;
     font-size: 18px;
     margin-bottom: 45px;
     color: #FFFFFF;
 }
 
-.hero-btn{
-    display: inline-block;
-    margin-top: 20px;
-    padding: 16px 30px;
-    background-color: #1d4ed8;
-    border: none;
-    border-radius: 8px;
-    color: #FFFFFF;
-    font-weight: 600;
+.hero .btn{
+    padding: 12px 32px;
+    font-size: 1.1rem;
+    text-align: center;
 }
+
